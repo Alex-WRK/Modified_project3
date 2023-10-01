@@ -1,0 +1,110 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    flex: 70%;
+    margin: 0;
+}
+
+.right {
+    flex: 30%;
+    margin: 0;
+}
+
+/* Chart Container */
+.chart {
+    margin-top: auto;
+    padding: auto; 
+    border: auto solid #000;
+    background-color: #dcf1fc;
+    width: auto;
+    height: auto; 
+    max-width: auto; 
+    box-sizing: border-box;
+    border-radius: auto;
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #ffffff15;
+    padding: auto;
+    height: 10mm;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color:#dcf1fc;
+    padding: 4mm 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    color: rgba(190, 190, 190, 0); 
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* Visited link styles */
+a:visited {
+    color: rgba(190, 190, 190, 0); 
+}
+
+/* Hover link styles (when you hover over a link) */
+a:hover {
+    color:  rgba(190, 190, 190, 0)ue; 
+}
+
+/* Active link styles (when a link is clicked) */
+a:active {
+    color:  rgba(190, 190, 190, 0); 
+}
+
+.tradingview-container {
+    width: 10%; /* Adjust the width as needed, e.g., '80%' or '500px' */
+    height: 1000px; 
+}
+
+/* Remove bullet points and display links horizontally */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Add space between links */
+nav li {
+    margin-right: 20px;
+}
+
+/* Style for the links */
+nav a {
+    color: blue; /* Link color */
+    text-decoration: none; /* Remove underlines */
+}
+
+/* Hover effect for links */
+nav a:hover {
+    text-decoration: underline;
+}
